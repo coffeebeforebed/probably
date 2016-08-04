@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 $('#bellyband').on('click', function(){
   $(this).addClass('hide');
-})
+});
 $(window).resize(function() {
   newHeight = $(window).height();
   $('iframe').css('height', newHeight);
